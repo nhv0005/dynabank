@@ -154,13 +154,13 @@ B) Cloud setup
 C) Setup
 --------
 
-We’ll use [Pepper](https://github.com/dtdave/scw/blob/Main/docs/pepper/pepper.md) today. It’s a cloud-agnostic deployment assistant built to help setup applications while providing every step along the way. (No magic whooosh then done!)
+We’ll use [Pepper](https://github.com/nhv0005/scw-pepper/blob/Main/docs/pepper/pepper.md) today. It’s a cloud-agnostic deployment assistant built to help setup applications while providing every step along the way. (No magic whooosh then done!)
 
 1.  In your cloud shell, download Pepper.
 
 Terminal window
 
-    curl https://raw.githubusercontent.com/dtdave/scw/refs/heads/Main/pepper/pepper.ps1 -s > ~/pepper.ps1
+    curl https://raw.githubusercontent.com/nhv0005/scw-pepper/refs/heads/Main/pepper/pepper.ps1 -s > ~/pepper.ps1
 
 2.  Start Pepper with the `-c` option to show commands as they run so you could use them manually later, and `-n` option to specify the existing VPC.
 
